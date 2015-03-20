@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{%for node in site.posts %}
+    {{node.content}}
+{% endfor %}
+
+<ul class="team-list">
+    {% for node in site.data.team %}
+    <li class="team-member {{ node.name | downcase | replace: ' ', '-' }}">
+        <div class="inner">
+            <h3>{{node.name}}</h3>
+        </div>
+    </li>
+    {% endfor %}
+</ul>

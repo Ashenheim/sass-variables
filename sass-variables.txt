@@ -1,0 +1,7 @@
+---
+output: true
+permalink: /jekyll-variables.scss
+---
+
+$names:{% for name in site.data.team %} {{ name.name | downcase | replace: ' ', '-' }}{% endfor %};
+$colors:{% for color in site.data.team %} {{ color.color | downcase | replace: ' ', '-' }}{% endfor %};

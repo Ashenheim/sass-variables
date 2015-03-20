@@ -1,0 +1,37 @@
+// Import jekyllized Sass variables :3
+@import '../_site/jekyll-variables.scss';
+
+*, *:before, *:after { box-sizing: border-box; }
+
+body,html {
+    background: #eee;
+    color: rgba( black, .8 );
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Use the jekyll generated list.
+
+.team-list {
+
+    font-size: 0; // fix spacing
+
+
+    .team-member {
+        display: inline-block;
+        padding: 10px;
+        font-size: 1rem;
+        text-shadow: 0 0 3px rgba( black, .3 );
+    }
+
+
+    @for $i from 1 through length($names) {
+        $name: nth($names, $i);
+        $color: nth($colors, $i);
+
+        .#{$name} {
+            background: $color;
+            color: saturate( lighten( $color, 40% ), 50% );
+        }
+
+    }
+}

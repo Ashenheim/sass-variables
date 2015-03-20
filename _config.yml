@@ -1,0 +1,21 @@
+# CONFIG for Jekyll
+
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:            Sassy Jekyll
+baseurl:          "/sassy-variables"
+
+
+# Build
+markdown: kramdown
+highlighter: rouge
+exclude: [
+    'node_modules',
+    'bower.json',
+    'gulpfile.js',
+    'package.json',
+    'README.md',
+    'gulp'
+]

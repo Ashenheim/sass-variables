@@ -1,0 +1,108 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body, html {
+  background: #eee;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Open Sans', sans-serif; }
+
+.team-list {
+  font-size: 0; }
+  .team-list .team-member {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+  .team-list .lovie-maxton {
+    background: #523084;
+    color: #b483fd; }
+  .team-list .kate-mey {
+    background: #d9be60;
+    color: white; }
+  .team-list .nicholle-widrick {
+    background: #388bc2;
+    color: #c6e9ff; }
+  .team-list .kristi-critchlow {
+    background: #70ea17;
+    color: #e1ffc6; }
+  .team-list .ivette-jeffers {
+    background: #ceb9b4;
+    color: white; }
+  .team-list .denisha-millikin {
+    background: #fa5d3e;
+    color: white; }
+  .team-list .cherry-morissette {
+    background: #d1ba97;
+    color: white; }
+  .team-list .floyd-beazley {
+    background: #20dd08;
+    color: #aeffa1; }
+  .team-list .dolores-easterling {
+    background: #efed15;
+    color: #ffffc8; }
+  .team-list .clarita-dorn {
+    background: #1aae7d;
+    color: #88ffe0; }
+  .team-list .charmaine-blatt {
+    background: #b1fb47;
+    color: white; }
+  .team-list .kelli-glatt {
+    background: #2444e2;
+    color: #cdd7ff; }
+  .team-list .stefania-connery {
+    background: #b1156c;
+    color: #ff83d1; }
+  .team-list .anh-lafave {
+    background: #cf3f0d;
+    color: #ffb799; }
+  .team-list .tyra-menzel {
+    background: #09fefe;
+    color: #c9ffff; }
+  .team-list .layne-updike {
+    background: #1f468e;
+    color: #71a6ff; }
+  .team-list .elida-foulds {
+    background: #7376a4;
+    color: #e8e9fb; }
+  .team-list .fay-rana {
+    background: #6097b8;
+    color: #e7f5fd; }
+  .team-list .danyel-hodgkinson {
+    background: #c03656;
+    color: #ffc1d0; }
+  .team-list .rocco-humphries {
+    background: #ea6bc8;
+    color: white; }
+  .team-list .carissa-tsuji {
+    background: #5dcac0;
+    color: #f4fffe; }
+  .team-list .elmira-cassin {
+    background: #9dfa30;
+    color: #fbfff5; }
+  .team-list .kia-insley {
+    background: #6db496;
+    color: #f0fdf8; }
+  .team-list .marline-castanon {
+    background: #745bb8;
+    color: #e9e2fd; }
+  .team-list .roxann-bohland {
+    background: #ce5809;
+    color: #ffc591; }
+  .team-list .randy-dunmore {
+    background: #28a79e;
+    color: #96fffd; }
+  .team-list .aurore-mullan {
+    background: #7c5043;
+    color: #f3ad98; }
+  .team-list .joetta-gainey {
+    background: #5dc206;
+    color: #c4ff7e; }
+  .team-list .kaley-natali {
+    background: #5529ed;
+    color: #e7deff; }
+  .team-list .rudy-boone {
+    background: #9ba593;
+    color: white; }
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdJO0VBQW1CLHdCQUFZLEVBQUE7O0FBRTdCO0VBQ1Usa0JBQUE7RUFDTCwyQkFBQTtFQUNQLHNDQUFhLEVBQUE7O0FBS2pCO0VBRUksY0FBVyxFQUFBO0VBR2Y7SUFDaUIsdUJBQUE7SUFDQSxlQUFBO0lBQ0UsaUJBQUE7SUFDWCx5Q0FBYSxFQUFBO0VBUXJCO0lBQ1kscUJBQUE7SUFDQSxnQkFBTyxFQUFBO0VBRm5CO0lBRmdCLHFCQUdKO0lBQ0EsY0FBTyxFQUFBO0VBRlI7SUFGSyxxQkFHSjtJQUNBLGdCQUFPLEVBQUE7RUFGUjtJQUNDLHFCQUFBO0lBQ08sZ0JBQUEsRUFBQTtFQUZuQjtJQUZnQixxQkFHSjtJQUNPLGNBQUEsRUFBQTtFQUZuQjtJQUZnQixxQkFHSjtJQUNBLGNBQU8sRUFBQTtFQUZuQjtJQUNZLHFCQUFBO0lBQ0EsY0FBTyxFQUFBO0VBRm5CO0lBQ1kscUJBQUE7SUFDTyxnQkFBQSxFQUFBO0VBRlI7SUFGSyxxQkFHSjtJQUNBLGdCQUFPLEVBQUE7RUFGUjtJQUZLLHFCQUdKO0lBQ0EsZ0JBQU8sRUFBQTtFQUZuQjtJQUZnQixxQkFHSjtJQUNPLGNBQUEsRUFBQTtFQUZuQjtJQUZnQixxQkFHSjtJQUNPLGdCQUFBLEVBQUE7RUFGUjtJQUNDLHFCQUFBO0lBQ0EsZ0JBQU8sRUFBQTtFQUZuQjtJQUNZLHFCQUFBO0lBQ0EsZ0JBQU8sRUFBQTtFQUZuQjtJQUZnQixxQkFHSjtJQUNBLGdCQUFPLEVBQUE7RUFGUjtJQUZLLHFCQUdKO0lBQ0EsZ0JBQU8sRUFBQTtFQUZSO0lBQ0MscUJBQUE7SUFDTyxnQkFBQSxFQUFBO0VBRm5CO0lBRmdCLHFCQUdKO0lBQ08sZ0JBQUEsRUFBQTtFQUZuQjtJQUZnQixxQkFHSjtJQUNBLGdCQUFPLEVBQUE7RUFGbkI7SUFDWSxxQkFBQTtJQUNBLGNBQU8sRUFBQTtFQUZuQjtJQUNZLHFCQUFBO0lBQ08sZ0JBQUEsRUFBQTtFQUZSO0lBRksscUJBR0o7SUFDQSxnQkFBTyxFQUFBO0VBRlI7SUFGSyxxQkFHSjtJQUNBLGdCQUFPLEVBQUE7RUFGbkI7SUFGZ0IscUJBR0o7SUFDTyxnQkFBQSxFQUFBO0VBRm5CO0lBRmdCLHFCQUdKO0lBQ08sZ0JBQUEsRUFBQTtFQUZSO0lBQ0MscUJBQUE7SUFDQSxnQkFBTyxFQUFBO0VBRm5CO0lBQ1kscUJBQUE7SUFDQSxnQkFBTyxFQUFBO0VBRm5CO0lBRmdCLHFCQUdKO0lBQ0EsZ0JBQU8sRUFBQTtFQUZSO0lBQ0MscUJBQUE7SUFDTyxnQkFBQSxFQUFBO0VBRm5CO0lBRmdCLHFCQUdKO0lBQ0EsY0FBTyxFQUFBIiwiZmlsZSI6Imdsb2JhbC5jc3MiLCJzb3VyY2VSb290IjoiLyJ9 */
