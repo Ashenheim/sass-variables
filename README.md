@@ -1,1 +1,1 @@
-[https://ashenheim.github.com/sass-variables](https://ashenheim.github.com/sass-variables)
+`npm install` then `gulp serve`
